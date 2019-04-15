@@ -85,6 +85,12 @@ a,h1,h2,h3,address{
 	border: 1px solid #dabc58;
 	transition: color 300ms ease,background-color: 300 ease;
 }
+.hero-content_a:hover{
+	color:#badc58;
+	background-color: #ffffff;
+	border:1px solid;
+	transition: color 300ms ease,background-color: 300 ease;
+}
 .scroll_down {
 	/*color:white;*/
 	margin-top: 93px;
