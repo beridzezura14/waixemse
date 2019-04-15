@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: normal;
+}
+body {
+	max-width: 1084px;
+	margin: 0 auto;
+}
+header,
+ul {
+	display: flex;
+}
+.list-item {
+	width: 250px;
+	justify-content: space-between;
+}
+
+header {
+	justify-content: space-between;
+	height: 60px;
+	align-items: center;
+}
+.burger {
+	display:none;
+}
+.list-item a{
+	color:#181818;
+	transition: 300ms color ease
+}
+.list-item a:hover{
+	color:#badc58;
+	transition: 300ms color ease
+}
+@font-face {
+	font-family: caps;
+	src:url(../font/caps.ttf);
+}
+@font-face {
+	font-family: normal;
+	src:url(../font/normal-bold.ttf);
+}
+a,h1,h2,h3,address{
+	font-family: caps;
+}
+.hero {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 60px);
+	overflow: hidden;
+	text-align: center;
+	background-color: gray;	
+}
+.hero-content  {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.hero-content_h1 {	
+	font-size: 50px;
+	margin-bottom: 13px;
+	/*color: white*/
+}
+.hero-content_p{
+	/*color:white;*/
+	text-align: center;
+	width: 60%;
+	margin-bottom: 53px;
+}
+.hero-content_a{
+	background-color:#badc58;
+	padding-top: 15px;
+	padding-right:47px;
+	padding-bottom: 15px;
+	padding-left: 47px;
+	border-radius: 10px;
+	font-size: 14px;
+	color:black;
+	border: 1px solid #dabc58;
+	transition: color 300ms ease,background-color: 300 ease;
+}
+.scroll_down {
+	/*color:white;*/
+	margin-top: 93px;
+	font-size:10px;
+	color:black;
+}
+.scroll_down_img{
+	margin-top: 22px;
+}
+.hero-content_a {
+	background-color:#badc58;
+	padding-top: 15px;
+	padding-right:47px;
+	padding-bottom: 15px;
+	padding-left: 47px;
+	border-radius: 10px;
+	font-size: 14px;
+	color:black;
+	border: 1px solid #dabc58;
+	transition: color 300ms ease,background-color: 300 ease;
+}
+
+.scroll_down {
+	/*color:white;*/
+	margin-top: 93px;
+	font-size:10px;
+	/*color:white;*/
+}
+
+.scroll_down_img{
+	margin-top: 22px;
+}
